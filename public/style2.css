@@ -1,0 +1,79 @@
+body {
+    background: white;
+    color: black;
+font-family:'Source Code Pro', monospace,serif;
+    font-weight: lighter;
+}
+
+.container{
+    margin:0 auto;
+    max-width: 1000px;
+}
+
+h1{
+    font-size: 35px;
+    padding: 30px;
+    text-align: center;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+h3{
+    margin: 0;
+}
+
+h4{
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.profile{
+    margin:0 auto;
+    display: block;
+width: 1000px;
+}
+
+
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    position: fixed;
+}
+
+.logo img {
+    width: 70px;
+}
+
+@media screen and (max-width:480px) {
+    .logo > img {
+        width: 35px;
+        position: absolute;
+        top: 30px;
+        left: 15px;
+        position: fixed;
+    }
+}
+
+.fas {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 30px;
+    color: black;
+    position: fixed;
+}
+
+footer{
+    text-align: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300');
